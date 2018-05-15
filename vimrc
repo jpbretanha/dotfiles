@@ -57,7 +57,7 @@ Plug 'pangloss/vim-javascript'
 Plug 'mattn/emmet-vim'
 Plug 'w0rp/ale'
 Plug 'justinmk/vim-sneak'
-
+Plug 'reasonml-editor/vim-reason-plus'
 call plug#end()
 color Dracula
 
@@ -69,7 +69,10 @@ let g:airline_powerline_fonts=1
 set laststatus=2
 let g:indentLine_enabled = 1
 let g:indentLine_char = "⟩"
-
+let g:LanguageClient_serverCommands = {
+    \ 'reason': ['ocaml-language-server', '--stdio'],
+    \ 'ocaml': ['ocaml-language-server', '--stdio'],
+    \ }
 let g:ale_fixers = {'javascript': ['prettier_standard']}
 let g:ale_linters = {'javascript': ['']}
 let g:ale_fix_on_save = 1
