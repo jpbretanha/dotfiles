@@ -15,6 +15,7 @@ source ~/.antigen.zsh
 antigen bundle zsh-users/zsh-syntax-highlighting
 antigen bundle zsh-users/zsh-autosuggestions
 antigen bundle git
+rm ~/.antigen/.lock
 
 alias vim="nvim"
 alias g="git"
