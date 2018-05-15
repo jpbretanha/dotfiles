@@ -54,6 +54,7 @@ Plug 'mhinz/vim-grepper'
 Plug 'Shougo/vimfiler.vim', { 'on': 'VimFiler' }
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'pangloss/vim-javascript'
+Plug 'mattn/emmet-vim'
 Plug 'w0rp/ale'
 Plug 'justinmk/vim-sneak'
 
