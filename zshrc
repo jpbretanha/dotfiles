@@ -15,3 +15,10 @@ source ~/.antigen.zsh
 antigen bundle zsh-users/zsh-syntax-highlighting
 antigen bundle zsh-users/zsh-autosuggestions
 antigen bundle git
+
+alias vim="nvim"
+alias g="git"
+alias gc="git commit"
+alias gst="git status"
+alias gco="git checkout"
+alias gp="git push"

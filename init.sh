@@ -19,10 +19,3 @@ mkdir -p ~/.config ~/.config/nvim
 ln -s ~/dotfiles/zshrc ~/.zshrc
 ln -s ~/dotfiles/tmux.conf ~/.tmux.conf
 ln -s ~/dotfiles/vimrc ~/.config/nvim/init.vim
-
-alias vim="nvim"
-alias g="git"
-alias gc="git commit"
-alias gst="git status"
-alias gco="git checkout"
-alias gp="git push"
