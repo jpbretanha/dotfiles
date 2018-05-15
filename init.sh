@@ -22,6 +22,7 @@ ln -s ~/dotfiles/vimrc ~/.config/nvim/init.vim
 
 alias vim="nvim"
 alias g="git"
-alias cm="commit"
+alias gc="git commit"
 alias gst="git status"
 alias gco="git checkout"
+alias gp="git push"
