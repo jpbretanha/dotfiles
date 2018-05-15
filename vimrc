@@ -53,7 +53,7 @@ Plug 'ctrlpvim/ctrlp.vim', { 'on': 'CtrlP' }
 Plug 'mhinz/vim-grepper'
 Plug 'Shougo/vimfiler.vim', { 'on': 'VimFiler' }
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-Plugin 'pangloss/vim-javascript'
+Plug 'pangloss/vim-javascript'
 Plug 'w0rp/ale'
 Plug 'justinmk/vim-sneak'
 
