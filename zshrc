@@ -23,3 +23,6 @@ alias gc="git commit"
 alias gst="git status"
 alias gco="git checkout"
 alias gp="git push"
+
+source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh

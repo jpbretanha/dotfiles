@@ -2,6 +2,8 @@
 brew install zsh tmux neovim/neovim/neovim python3 ag reattach-to-user-namespace
 brew tap caskroom/cask
 brew cask install iterm2
+brew install zsh-syntax-highlighting
+brew install zsh-autosuggestions
 
 curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
   https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
