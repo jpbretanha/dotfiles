@@ -20,13 +20,9 @@ Open iTerm’s preferences with “⌘,” then tick the following settings:
 2. Choose ~/dotfiles
 3. “Save changes to folder when iTerm2 quits”
 
-### Theme: Dracula
+### Theme: Agnoster
 
-1. Profiles tab
-2. Colors sub-tab
-3. Color Presets…
-4. Import…
-5. ~/dotfiles/iterm-dracula/Dracula.itermcolors
+Install [PowerLine fonts](https://github.com/powerline/fonts) to render theme correctly.
 
 ### Font: Fira Code
 
