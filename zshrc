@@ -3,7 +3,10 @@ colors
 precmd() { print "" }
 PS1="⟩"
 RPS1="%{$fg[magenta]%}%20<...<%~%<<%{$reset_color%}"
-if [ "$TMUX" = "" ]; then tmux; fi
+if [[ $TMUX = "" ]]; then
+  tmux ls | grep -vq attached && TMUXARG="attach-session -d"
+  exec eval "tmux -2 $TMUXARG"
+fi
 
 setopt auto_cd
 setopt correctall
