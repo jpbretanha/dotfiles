@@ -60,9 +60,9 @@
 	<key>NSWindow Frame SessionsPreferences</key>
 	<string>269 205 609 401 0 0 1280 778 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>167 271 918 492 0 0 1280 778 </string>
+	<string>167 271 796 473 0 0 1280 778 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 69 1274 709 0 0 1280 778 </string>
+	<string>0 65 1280 713 0 0 1280 778 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>0 68 1280 709 0 0 1280 777 </string>
 	<key>New Bookmarks</key>
@@ -805,6 +805,8 @@
 	<date>2018-05-15T23:26:04Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
+	<key>TabStyle</key>
+	<integer>0</integer>
 	<key>iTerm Version</key>
 	<string>3.1.6</string>
 </dict>

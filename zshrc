@@ -1,7 +1,6 @@
 ZSH_THEME="agnoster"
 autoload colors zsh/terminfo
 colors
-precmd() { print "" }
 PS1="⟩"
 RPS1="%{$fg[magenta]%}%20<...<%~%<<%{$reset_color%}"
 if [[ $TMUX = "" ]]; then
@@ -27,6 +26,7 @@ alias gc="git commit"
 alias gst="git status"
 alias gco="git checkout"
 alias gp="git push"
+alias gaa="git add --all"
 
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
