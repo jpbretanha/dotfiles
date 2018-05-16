@@ -1,3 +1,4 @@
+ZSH_THEME="agnoster"
 autoload colors zsh/terminfo
 colors
 precmd() { print "" }
