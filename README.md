@@ -1,5 +1,7 @@
 # My Dotfiles config for `Nvim + Tmux + zsh + iTerm2`
 
+![Screenshot](screenshots/example.png)
+
 ### Install Dependencies
 
 Run `bash init.sh`
