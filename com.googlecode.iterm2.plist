@@ -54,15 +54,15 @@
 	<key>NSTableView Supports v2 KeyBingingTable</key>
 	<true/>
 	<key>NSWindow Frame NSFontPanel</key>
-	<string>653 170 445 77 0 0 1280 778 </string>
+	<string>556 337 445 77 0 0 1280 778 </string>
 	<key>NSWindow Frame SUUpdateAlert</key>
 	<string>330 306 620 392 0 0 1280 778 </string>
 	<key>NSWindow Frame SessionsPreferences</key>
 	<string>269 205 609 401 0 0 1280 778 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>167 362 918 401 0 0 1280 778 </string>
+	<string>167 271 918 492 0 0 1280 778 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 88 1274 690 0 0 1280 778 </string>
+	<string>0 69 1274 709 0 0 1280 778 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>0 68 1280 709 0 0 1280 777 </string>
 	<key>New Bookmarks</key>
@@ -671,7 +671,7 @@
 			<key>Name</key>
 			<string>Default</string>
 			<key>Non Ascii Font</key>
-			<string>Monaco 12</string>
+			<string>MesloLGLForPowerline-Regular 12</string>
 			<key>Non-ASCII Anti Aliased</key>
 			<true/>
 			<key>Normal Font</key>
