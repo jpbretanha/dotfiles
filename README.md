@@ -1,6 +1,6 @@
 # My Dotfiles config for `Nvim + Tmux + zsh + iTerm2`
 
-![Screenshot](screenshots/example.png)
+![Screenshot](screenshots/screen.png)
 
 ### Install Dependencies
 
