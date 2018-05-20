@@ -63,6 +63,7 @@ Plug 'justinmk/vim-sneak'
 Plug 'reasonml-editor/vim-reason-plus'
 call plug#end()
 color Dracula
+syntax on
 
 nnoremap <Leader>p :CtrlP<CR>
 nnoremap <Leader>t :CtrlP<CR>
