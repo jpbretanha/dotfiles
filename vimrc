@@ -27,6 +27,9 @@ set scrolloff=1
 set sidescrolloff=5
 let mapleader="\<SPACE>"
 set mouse=r
+set autoindent
+set smartindent
+
 let $NVIM_TUI_ENABLE_CURSOR_SHAPE=1
 
 nnoremap <Left> :vertical resize -1<CR>
@@ -68,7 +71,6 @@ let g:airline#extensions#tabline#enabled=1
 let g:airline_powerline_fonts=1
 set laststatus=2
 let g:indentLine_enabled = 1
-let g:indentLine_char = "⟩"
 let g:LanguageClient_serverCommands = {
     \ 'reason': ['ocaml-language-server', '--stdio'],
     \ 'ocaml': ['ocaml-language-server', '--stdio'],
