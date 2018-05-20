@@ -26,6 +26,6 @@ alias gst="git status"
 alias gco="git checkout"
 alias gp="git push"
 alias gaa="git add --all"
-
+alias grh="git reset --hard"
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
