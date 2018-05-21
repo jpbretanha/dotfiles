@@ -31,7 +31,7 @@ Install [PowerLine fonts](https://github.com/powerline/fonts) to render theme co
 1. Profiles tab
 2. Text sub-tab
 3. Change Font
-4. Family: Fira Code (I enjoy size 18)
+4. Family: Fira Code 
 
 ### Cursor Guide
 
