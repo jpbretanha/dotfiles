@@ -1,6 +1,5 @@
 autoload colors zsh/terminfo
 colors
-PS1="⟩"
 if [[ $TMUX = "" ]]; then
   tmux ls | grep -vq attached && TMUXARG="attach-session -d"
   exec eval "tmux -2 $TMUXARG"
@@ -9,7 +8,7 @@ setopt auto_cd
 setopt correctall
 alias git status='nocorrect git status'
 if [[ ! -f ~/.antigen.zsh ]]; then
-  curl https://raw.githubusercontent.com/zsh-users/antigen/master/antigen.zsh > ~/.antigen.zsh
+  curl -L git.io/antigen-nightly > ~/.antigen.zsh
 fi
 source ~/.antigen.zsh
 antigen use oh-my-zsh
