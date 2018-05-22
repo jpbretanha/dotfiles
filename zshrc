@@ -1,8 +1,9 @@
 autoload colors zsh/terminfo
 colors
-if [[ $TMUX = "" ]]; then
-  tmux ls | grep -vq attached && TMUXARG="attach-session -d"
-  exec eval "tmux -2 $TMUXARG"
+if which tmux 2>&1 >/dev/null; then
+  if [ $TERM != "screen-256color" ] && [  $TERM != "screen" ]; then
+    tmux attach -t hack || tmux new -s hack; exit
+  fi
 fi
 setopt auto_cd
 setopt correctall
