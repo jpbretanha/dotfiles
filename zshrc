@@ -13,13 +13,28 @@ antigen bundle zsh-users/zsh-autosuggestions
 antigen bundle git
 antigen theme agnoster
 antigen apply
+git-current-branch () {
+    if ! git rev-parse 2> /dev/null
+    then
+        print "$0: not a repository: $PWD" >&2
+        return 1
+    fi
+    local ref="$(git symbolic-ref HEAD 2> /dev/null)"
+    if [[ -n "$ref" ]]
+    then
+        print "${ref#refs/heads/}"
+        return 0
+    else
+        return 1
+    fi
+  }
 
 alias vim="nvim"
 alias g="git"
 alias gc="git commit"
 alias gst="git status"
 alias gco="git checkout"
-alias gp="git push --set-upstream origin \"$(git rev-parse --abbrev-ref HEAD)\""
+alias gp='git push origin "$(git-current-branch 2> /dev/null)"'
 alias gaa="git add --all"
 alias grh="git reset --hard"
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
