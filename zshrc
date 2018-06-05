@@ -19,7 +19,7 @@ alias g="git"
 alias gc="git commit"
 alias gst="git status"
 alias gco="git checkout"
-alias gp="git push"
+alias gp="git push --set-upstream origin \"$(git rev-parse --abbrev-ref HEAD)\""
 alias gaa="git add --all"
 alias grh="git reset --hard"
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
