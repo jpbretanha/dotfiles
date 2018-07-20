@@ -28,7 +28,7 @@ git-current-branch () {
         return 1
     fi
   }
-alias avd="./Library/Android/sdk/tools/emulator -avd Nexus_5X_API_27_x86 -netdelay none -netspeed full"
+alias avd="./Library/Android/sdk/tools/emulator -avd Nexus_5X_API_27_x86 -netdelay none -netspeed full -no-snapshot-save"
 alias vim="nvim"
 alias g="git"
 alias gc="git commit"
