@@ -28,7 +28,7 @@ git-current-branch () {
         return 1
     fi
   }
-alias avd="./Library/Android/sdk/tools/emulator -avd Nexus_5X_API_27_x86 -netdelay none -netspeed full -no-snapshot-save"
+alias avd="~/Library/Android/sdk/tools/emulator -avd Nexus_5X_API_27_x86 -netdelay none -netspeed full -no-snapshot-save"
 alias vim="nvim"
 alias g="git"
 alias gc="git commit"
@@ -44,3 +44,4 @@ source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 export ANDROID_HOME=~/Library/Android/sdk/
 export PATH=$PATH:~/android-sdks/platform-tools/
 export PATH=$PATH:~/android-sdks/tools/
+export PATH=$PATH:~/anaconda2/

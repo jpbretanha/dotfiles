@@ -56,7 +56,7 @@
 	<key>NSWindow Frame NSFontPanel</key>
 	<string>556 337 445 77 0 0 1280 778 </string>
 	<key>NSWindow Frame SUUpdateAlert</key>
-	<string>330 306 620 392 0 0 1280 778 </string>
+	<string>330 305 620 392 0 0 1280 778 </string>
 	<key>NSWindow Frame SessionsPreferences</key>
 	<string>269 205 609 401 0 0 1280 778 </string>
 	<key>NSWindow Frame SharedPreferences</key>
@@ -64,7 +64,7 @@
 	<key>NSWindow Frame iTerm Window 0</key>
 	<string>0 65 1280 713 0 0 1280 778 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>0 68 1280 709 0 0 1280 777 </string>
+	<string>0 201 650 577 0 0 1280 778 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -802,12 +802,14 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2018-05-15T23:26:04Z</date>
+	<date>2018-08-18T01:52:01Z</date>
 	<key>SUSendProfileInfo</key>
+	<false/>
+	<key>ShowFullScreenTabBar</key>
 	<false/>
 	<key>TabStyle</key>
 	<integer>0</integer>
 	<key>iTerm Version</key>
-	<string>3.1.6</string>
+	<string>3.2.0</string>
 </dict>
 </plist>
