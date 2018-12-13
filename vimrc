@@ -69,6 +69,7 @@ Plug 'mattn/emmet-vim'
 Plug 'w0rp/ale'
 Plug 'justinmk/vim-sneak'
 Plug 'reasonml-editor/vim-reason-plus'
+Plugin 'zxqfl/tabnine-vim'
 call plug#end()
 color Dracula
 syntax on

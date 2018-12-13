@@ -45,3 +45,5 @@ export ANDROID_HOME=~/Library/Android/sdk/
 export PATH=$PATH:~/android-sdks/platform-tools/
 export PATH=$PATH:~/android-sdks/tools/
 export PATH=$PATH:~/anaconda2/
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
