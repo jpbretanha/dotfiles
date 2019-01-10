@@ -39,6 +39,7 @@ alias gaa="git add --all"
 alias grh="git reset --hard"
 alias gdb="git branch -D"
 alias glog='log --pretty=oneline --abbrev-commit --graph --decorate'
+alias gdm='git branch --merged master | grep -v master | xargs -n 1 git branch -d'
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 export ANDROID_HOME=~/Library/Android/sdk/
