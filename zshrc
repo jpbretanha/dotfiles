@@ -28,6 +28,7 @@ git-current-branch () {
         return 1
     fi
   }
+
 alias avd="~/Library/Android/sdk/tools/emulator -avd Nexus_5X_API_27_x86 -netdelay none -netspeed full -no-snapshot-save"
 alias vim="nvim"
 alias g="git"
@@ -35,6 +36,7 @@ alias gc="git commit"
 alias gst="git status"
 alias gco="git checkout"
 alias gp='git push origin "$(git-current-branch 2> /dev/null)"'
+alias gpull='git pull origin "$(git-current-branch 2> /dev/null)" --rebase'
 alias gaa="git add --all"
 alias grh="git reset --hard"
 alias gdb="git branch -D"
