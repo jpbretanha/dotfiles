@@ -27,7 +27,16 @@ git-current-branch () {
     else
         return 1
     fi
-  }
+}
+
+grmb () {
+    if [[ $# = 0 ]]
+    then
+        git branch --merged master | grep -v master | xargs -n 1 git branch -d
+    else
+        git branch --merged $1 | grep -v $1 | xargs -n 1 git branch -d
+    fi
+}
 
 alias avd="~/Library/Android/sdk/tools/emulator -avd Nexus_5X_API_27_x86 -netdelay none -netspeed full -no-snapshot-save"
 alias vim="nvim"
@@ -41,7 +50,7 @@ alias gaa="git add --all"
 alias grh="git reset --hard"
 alias gdb="git branch -D"
 alias glog='log --pretty=oneline --abbrev-commit --graph --decorate'
-alias gdm='git branch --merged master | grep -v master | xargs -n 1 git branch -d'
+alias gdm=grmb
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 export ANDROID_HOME=~/Library/Android/sdk/
