@@ -52,6 +52,7 @@ alias gdb="git branch -D"
 alias glog='git log --pretty=oneline --abbrev-commit --graph --decorate'
 alias gdm=grmb
 alias gbl="git branch -l"
+alias gamend="git commit --amend --no-edit"
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 export ANDROID_HOME=~/Library/Android/sdk/
