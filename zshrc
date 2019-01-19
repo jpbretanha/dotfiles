@@ -49,7 +49,7 @@ alias gpull='git pull origin "$(git-current-branch 2> /dev/null)" --rebase'
 alias gaa="git add --all"
 alias grh="git reset --hard"
 alias gdb="git branch -D"
-alias glog='log --pretty=oneline --abbrev-commit --graph --decorate'
+alias glog='git log --pretty=oneline --abbrev-commit --graph --decorate'
 alias gdm=grmb
 alias gbl="git branch -l"
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
