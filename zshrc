@@ -52,7 +52,7 @@ alias gdb="git branch -D"
 alias glog='git log --pretty=oneline --abbrev-commit --graph --decorate'
 alias gdm=grmb
 alias gbl="git branch -l"
-alias gamend="git commit --amend --no-edit"
+alias gamend="git commit --amend --no-edit --no-verify"
 export PATH=~/.local/bin:$PATH
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
@@ -64,5 +64,16 @@ export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 export PATH=$PATH:~/.deno/bin
 export PATH="$HOME/.fastlane/bin:$PATH"
+export PATH=$PATH:/usr/local/opt/rabbitmq/sbin
+export PATH="$PATH:/Users/joaobretanha/flutter/bin"
+alias composer="php /usr/local/bin/composer.phar"
 eval "$(rbenv init -)"
 export USER=
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/joaobretanha/Downloads/google-cloud-sdk/path.zsh.inc' ]; then source '/Users/joaobretanha/Downloads/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/joaobretanha/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then source '/Users/joaobretanha/Downloads/google-cloud-sdk/completion.zsh.inc'; fi
+
+eval $(thefuck --alias)
