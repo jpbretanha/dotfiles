@@ -156,7 +156,6 @@ alias gbl="git branch -l"
 alias gamend="git commit --amend --no-edit --no-verify"
 alias grc="git rebase --continue"
 alias eaws="vim ~/.aws/credentials"
-alias ppdeploy="$(picpay-deploy)"
 alias gpnv='gp --no-verify'
 alias gwip='gc -m "wip" --no-edit --no-verify'
 alias gwipn='gc -m "wip" --no-edit'
