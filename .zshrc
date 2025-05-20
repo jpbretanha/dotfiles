@@ -12,8 +12,6 @@ fi
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -194,8 +192,6 @@ export GEM_HOME="$HOME/.gem"
 # bun
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:/opt/homebrew/opt/ruby/bin:$PATH"
-
-nvm use v22
 
 export ANDROID_HOME="/users/joaopedrobretanha/Library/Android/sdk"
 export LDFLAGS="-L/opt/homebrew/opt/ruby/lib"
