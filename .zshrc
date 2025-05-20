@@ -157,8 +157,6 @@ alias eaws="vim ~/.aws/credentials"
 alias gpnv='gp --no-verify'
 alias gwip='gc -m "wip" --no-edit --no-verify'
 alias gwipn='gc -m "wip" --no-edit'
-alias startdev="yarn dev web-app ui timeline domain wallet"
-alias startmepoupe="APP_TENANT=me-poupe yarn start"
 
 # ZSH lias
 
@@ -172,6 +170,7 @@ alias c="clear"
 alias @friday="cd ~/friday"
 alias @ws="cd ~/workspace"
 alias @pp="cd ~/picpay"
+alias @w='cd ~/warmly'
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
