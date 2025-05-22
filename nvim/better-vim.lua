@@ -44,6 +44,8 @@ return {
       require('telescope').load_extension('lazygit')
 
       -- vim.cmd("colorscheme dayfox")
+      vim.api.nvim_set_keymap("i", "jj", "<Esc>", { noremap = false })
+      vim.api.nvim_set_keymap("i", "jk", "<Esc>", { noremap = false })
     end,
   },
   mappings = {
@@ -51,7 +53,16 @@ return {
     tabs = nil,
     next_item = "<C-j>",
     prev_item = "<C-k>",
-    show_list = "<C-Space>"
+    show_list = "<C-Space>",
+    -- FIXME: those remaps dont work
+    -- custom = {
+    --   by_mode = {
+    --     i = {
+    --       ["jj"] = { "<Esc>", "exit insert mode" },
+    --       ["jk"] = { "<Esc>", "exit insert mode" },
+    --     }
+    --   }
+    -- }
   },
   treesitter = "all",
   plugins = {
