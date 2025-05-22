@@ -170,7 +170,7 @@ alias c="clear"
 alias @friday="cd ~/friday"
 alias @ws="cd ~/workspace"
 alias @pp="cd ~/picpay"
-alias @w='cd ~/warmly'
+alias @warmly='cd ~/warmly'
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
