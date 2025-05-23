@@ -24,7 +24,7 @@ return {
       vim.opt.relativenumber = true
       vim.opt.number = true
       vim.opt.so = 999
-
+      require("dapui").setup()
       require("cmp").setup {
         -- other setup
         ghost_text = true,
@@ -117,5 +117,9 @@ return {
         end,
       },
     },
+    {
+      "rcarriga/nvim-dap-ui",
+      dependencies = { "mfussenegger/nvim-dap", "nvim-neotest/nvim-nio" },
+    }
   }
 }
